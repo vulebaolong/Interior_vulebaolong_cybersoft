@@ -1,0 +1,191 @@
+/* Global */
+*{
+    box-sizing: border-box;
+}
+
+.clear {
+    clear: both;
+}
+/* End Global */
+
+/* Header */
+.header img {
+    width: 200px;    
+}
+
+.header ul {
+    list-style: none;
+    background-color: black;
+
+    padding: 10px 10px 10px 20px;
+    margin: 5px 0px;
+}
+
+.header ul li {
+    display: inline-block;
+
+    margin-right: 10px;
+}
+
+.header ul li a {
+    color: white;
+    text-decoration: none;
+
+    font-size: 20px;
+}
+/* End Header */
+
+/* Carousel */
+.carousel {
+    background-image: url(../img/slider_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+}
+/* End Carousel */
+
+/* Description */
+.description p b {
+    color: red;
+}
+/* End Description */
+
+/* Intro */
+.intro .intro__left,
+.intro .intro__right {
+    float: left;
+    width: 50%;
+}
+
+.intro .intro__left .intro__pic {
+    float: left;
+    width: 50%;
+}
+
+.intro .intro__item {
+    padding: 0 15px 25px;
+}
+
+.intro .intro__item img{
+    display: block;
+    width: 100%; 
+}
+/* End Intro */
+
+/* Products */
+.products {
+    margin-bottom: 70px;
+}
+
+.products h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.products .products__content .products__item {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
+.products .products__content .products__item img {
+    width: 100%;
+}
+
+.products .products__content .products__item p {
+    margin: 20px 0;
+}
+
+.products .products__content .products__item button {
+    border: 1px solid red;
+    border-radius: 3px;
+
+    padding: 2px 15px;
+
+    color: white;
+    background-color: red;
+}
+/* End Products */
+
+/* Banner */
+.banner {
+    background-image: url('../img/nature.jpg');
+    height: 400px;
+    background-size: cover;
+    position: relative;
+}
+
+.banner__circle {
+    width: 300px;
+    height: 300px;
+    background-color: rgba(131, 41, 39, 0.8);
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+
+    position: absolute;
+    top: 50px;
+    left: 340px;
+}
+
+.banner .banner__circle p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.banner .banner__circle p:first-child {
+    font-size: 30px;
+}
+
+.banner .banner__circle p:nth-child(2) {
+    font-size: 80px;
+    margin: 0;
+}
+/* End Banner */ 
+
+/* Services */
+.services {
+    padding: 30px 0;
+}
+
+.services__content {
+    text-align: center;
+}
+
+.services .services__content {
+    width: 70%;
+    margin: auto;
+}
+
+.services .services__content .services__item {
+    float: left;
+    width: 33.33%;
+    padding: 0 20px;
+}
+
+.services .services__content .services__item p {
+    margin-bottom: 0;
+}
+
+.services .services__content .services__item i {
+    font-size: 30px;
+}
+/* End Services */
+
+/* Footer */
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer h2 {
+    margin: 0 0 10px;
+}
+/* End Footer */
